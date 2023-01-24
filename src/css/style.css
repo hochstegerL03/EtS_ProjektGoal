@@ -1,8 +1,24 @@
 .flex {
   display: flex;
 }
-.p-mx {
-  padding: 0 1rem 0 1rem;
+
+.align-end {
+  align-items: flex-end;
+}
+.justify-end {
+  justify-content: end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.p-x {
+  padding: 0vw 5vw 0vw 5vw;
 }
 .col-2 {
   width: 20%;
@@ -11,13 +27,115 @@
 .col-6 {
   width: 60%;
 }
-.w-85 {
-  width: 85%;
+.w-90 {
+  width: 90%;
 }
-.certificate {
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.h-90 {
+  height: 90%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.h-10 {
+  height: 10%;
+}
+
+.h-30 {
+  height: 30%;
+}
+
+.certificate-container {
   display: flex;
   justify-content: center;
 }
+
+.certificate {
+  display: flex;
+  aspect-ratio: 16 / 9;
+  align-items: center;
+}
+
+.certificate-body {
+  background-color: #ffffff;
+}
+
 .p-t {
-  padding-top: 1rem;
+  padding-top: 5%;
+}
+
+.p-t-xl {
+  padding-top: 8rem;
+}
+
+.p-a-none {
+  padding: 0;
+}
+
+.m-a-none {
+  margin: 0;
+}
+
+.text-body2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-navbar {
+  font-size: 1.2vw;
+}
+
+.text-header {
+  font-family: 'Source Serif Pro', serif;
+}
+
+.text-banner {
+  font-size: 6vw;
+}
+
+.text-name {
+  font-size: 3vw;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-body1 {
+  font-size: 2vw;
+}
+
+.image-dynamic {
+  width: 20vw;
+}
+
+.bg-secondary {
+  background-color: #83c5be;
+  height: 1vw;
+  width: 50%;
+}
+
+.modified-line-height {
+  line-height: 3.5vw;
+}
+
+body {
+  background-color: #000000;
 }

@@ -4,26 +4,71 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Our own CSS File-->
     <link rel="stylesheet" href="./src/css/style.css" />
+    <!--Fonts and more useful Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>EtS Certificate</title>
   </head>
   <body>
     <!--Page Container-->
     <div>
       <!--Certificate-->
-      <div class="certificate p-t ">
-        <div class="w-85">
-          <!--Header / Navbar-->
-          <div class="flex">
-            <div class="col-2">How to Basic</div>
-            <div class="col-2">Webdevelopment</div>
-            <div class="col-6"></div>
-            <div class="col-2">Date</div>
+      <div class="certificate-container">
+        <div class="w-90 certificate">
+          <div class="h-90 w-100 certificate-body p-x">
+            <!--Header / Navbar-->
+            <div class="flex text-body2 p-t text-navbar h-10">
+              <div class="col-2"><p class="p-a-none m-a-none">How to Basic</p></div>
+              <div class="col-2"><span>Webdevelopment</span></div>
+              <div class="col-6"></div>
+              <div class="col-2 text-right">Date</div>
+            </div>
+            <!--Header / Navbar End-->
+            <!--Body-->
+            <div class="flex h-50 align-end">
+              <img class="image-dynamic" src="./public/images/your_trophy.svg" />
+              <div class="w-100">
+                <div class="flex justify-end">
+                  <div class="col-6 text-header text-banner flex justify-end">
+                    <span class="p-a-none m-a-none text-right">Escape the Studies</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Body End-->
+            <!--Footer-->
+            <div class="h-30 flex align-center">
+              <div class="col-6">
+                <div>Finished by:</div>
+                <div class="text-header text-name">Your Name</div>
+                <div class="bg-secondary"></div>
+              </div>
+            </div>
+            <!--Footer End-->
           </div>
-          <!--Header / Navbar End-->
         </div>
       </div>
       <!--Certificate End-->
+      <!--Text Body-->
+      <div class="flex justify-center">
+        <div class="w-50">
+          <p class="text text-white text-center text-body1 modified-line-height">
+            This could be your future. Keep going and enjoy the life of web developing. More
+            interesting Topics to look at: Vue.js Bootstrap Quasar and many more
+          </p>
+        </div>
+      </div>
+
+      <!--Text Body End-->
     </div>
     <!--Page Container End-->
   </body>
