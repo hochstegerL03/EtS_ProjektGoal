@@ -1,0 +1,23 @@
+.flex {
+  display: flex;
+}
+.p-mx {
+  padding: 0 1rem 0 1rem;
+}
+.col-2 {
+  width: 20%;
+}
+
+.col-6 {
+  width: 60%;
+}
+.w-85 {
+  width: 85%;
+}
+.certificate {
+  display: flex;
+  justify-content: center;
+}
+.p-t {
+  padding-top: 1rem;
+}
