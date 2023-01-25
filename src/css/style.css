@@ -136,6 +136,10 @@
   line-height: 3.5vw;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 body {
   background-color: #000000;
 }

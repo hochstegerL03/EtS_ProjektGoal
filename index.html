@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Our own CSS File-->
     <link rel="stylesheet" href="./src/css/style.css" />
+    <!--Our own JavaScript File-->
+    <script src="./src/logic.js"></script>
     <!--Fonts and more useful Links-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,11 +37,17 @@
             <!--Header / Navbar End-->
             <!--Body-->
             <div class="flex h-50 align-end">
-              <img class="image-dynamic" src="./public/images/your_trophy.svg" />
+              <img
+                onclick="breakMe()"
+                class="image-dynamic"
+                src="./public/images/your_trophy.svg"
+              />
               <div class="w-100">
                 <div class="flex justify-end">
                   <div class="col-6 text-header text-banner flex justify-end">
-                    <span class="p-a-none m-a-none text-right">Escape the Studies</span>
+                    <span onclick="clickAlert()" class="p-a-none m-a-none text-right"
+                      >Escape the Studies</span
+                    >
                   </div>
                 </div>
               </div>
@@ -61,7 +69,11 @@
       <!--Text Body-->
       <div class="flex justify-center">
         <div class="w-50">
-          <p class="text text-white text-center text-body1 modified-line-height">
+          <p
+            onclick="hideMe()"
+            id="toHide"
+            class="text text-white text-center text-body1 modified-line-height"
+          >
             This could be your future. Keep going and enjoy the life of web developing. More
             interesting Topics to look at: Vue.js Bootstrap Quasar and many more
           </p>
